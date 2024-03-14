@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    overflow-x: hidden;
+    background-color: black;
+}
+img{
+    margin: 0px;
+    width: 100%;
+}
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+a{
+    padding: 20px;
+
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(153, 152, 152);
+    background-color: rgb(121, 4, 4);
+
+    height: 20px;
+
+    display: block;
+}
+a:hover{
+    background-color: red;
+    color: white;
+}
+#instagram{
+    background: linear-gradient(to right, rgb(134, 134, 3), rgb(119, 2, 2), rgb(3, 3, 107));
+}
+#instagram:hover{
+    background: linear-gradient(to right, yellow, red, blue);
+}
+#facebook{
+    background-color: rgb(5, 5, 139);
+}
+#facebook:hover{
+    background-color: blue;
+}
+#github{
+    background-color: green;
+}
+#github:hover{
+    background-color: rgb(5, 214, 5);
+}
